@@ -8,9 +8,11 @@ public class StepDefinitions {
     String url="jdbc:sqlserver://184.168.194.58:1433;databaseName=hotelmycamp ; user=techproed;password=P2s@rt65";
     String username="techproed";
     String password="P2s@rt65";
+
     Connection connection;
     Statement statement;
     ResultSet resultSet;
+
     @Given("kullanici HMC veri tabanina baglanir")
     public void kullanici_hmc_veri_tabanina_baglanir() throws SQLException {
         // database'e baglanti kuruyoruz
